@@ -5,8 +5,8 @@ import org.sufnidev.thunderbubble.model.xml.SeriesModel;
 
 public interface SeriesModelMarshaller {
 
-	SeriesModel marshall(Series series);
+    SeriesModel marshall(Series series);
 
-	Series unmarshall(SeriesModel seriesModel);
+    Series unmarshall(SeriesModel seriesModel);
 
 }
